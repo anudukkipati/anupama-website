@@ -6,22 +6,30 @@ import Header from './components/Header.js'
 import NavBar from './components/NavBar.js'
 import Footer from './components/Footer.js'
 import About from './components/About.js'
+import Portfolio from './components/Portfolio.js'
+import Resume from './components/Resume.js'
 import Container from 'react-bootstrap/Container'
+
 
 function App() {
   return (
-    <Container>
-        <div className="App">
-        <NavBar  />
-           <Header />
-           <br />
-           <br />
-           <Switch>
-             <Route exact path="/" component={About} />
-           </Switch>
+    <Container fluid>
+      
+          <div className="App">
+            <NavBar  />
+              <Header />
+              <br />
+              <br />
+              <Switch>
+                <Route exact path="/" component={About} />
+                <Route exact path="/portfolio" component={Portfolio} />
+                <Route exact path="/resume" component={Resume} />
+              </Switch>
 
-           <Footer />
-        </div>
+              <Footer />
+            </div>
+      
+       
 
     </Container>
    

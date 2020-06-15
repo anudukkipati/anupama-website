@@ -47,10 +47,38 @@
   background-size: cover;
   height: 500px;
   max-width: 100%;*/
-  margin-top: 60px;
+  margin-top: 70px;
+  border-bottom: solid #17a2b8 1px;
+}
+.portfolio-heading{
+  text-align: center;
+  padding-bottom: 2px;
+}
+.portfolio{
+  
+  padding-left: 170px;
+ 
+  
 }
 
+.project{
+  margin-bottom: 2px;
+  padding-bottom: 8px;
+}
+.course-title{
+  padding-bottom: 5px;
+  padding-top: 10px;
+  
+}
+
+.description{
+  text-align: center;
+}
 .footer{
   text-align: center;
-  margin-top: 300px
+  margin-top: 300px;
+  border-top: 1px solid #17a2b8;
+}
+.links{
+  padding-top: 5px;
 }

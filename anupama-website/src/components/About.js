@@ -1,9 +1,10 @@
 import React from 'react'
+import Container from 'react-bootstrap/Container'
 
 
 const About = () => {
     return (
-
+    <Container>
         <div className="about">
             <p>
                Hello, My Name is <strong>Anupama Gadde</strong>. Welcome to My Website. I am a <strong>Full-Stack Web Developer</strong> with a passion for learning.
@@ -19,6 +20,7 @@ const About = () => {
             </p>
             <p><strong>Technical Skills:</strong> Ruby, Rails, JavaScript, SQL, React, Redux, HTML, CSS, Bootstrap</p>
         </div>
+        </Container>
     )
 }
 
