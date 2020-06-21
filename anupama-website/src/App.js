@@ -9,6 +9,8 @@ import About from './components/About.js'
 import Portfolio from './components/Portfolio.js'
 import Resume from './components/Resume.js'
 import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 
 function App() {
@@ -17,6 +19,9 @@ function App() {
       
           <div className="App">
             <NavBar  />
+            <Row>
+              <Col>
+            
               <Header />
               <br />
               <br />
@@ -27,6 +32,8 @@ function App() {
               </Switch>
 
               <Footer />
+              </Col>
+              </Row>
             </div>
       
        

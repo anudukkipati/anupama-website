@@ -4,7 +4,7 @@ import React from 'react'
 const Header = () => {
     
     return (
-        <div className="container-fluid">
+        <div>
             <header className="App-header banner">
             <h2>Anupama</h2> 
             <p>Full Stack Web Developer </p>
