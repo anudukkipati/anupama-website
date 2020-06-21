@@ -1,0 +1,4 @@
+[build]
+base = "anupama-website/"
+publish = "anupama-website/build/"
+command = "yarn build"
