@@ -1,4 +1,4 @@
 [build]
-base = "anupama-website/"
-publish = "anupama-website/build/"
+base = "anupama-website/anupama-website/"
+publish = "anupama-website/anupama-website/build/"
 command = "yarn build"
