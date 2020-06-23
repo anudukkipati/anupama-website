@@ -10,7 +10,7 @@ const Portfolio = () => {
 
     return (
         <>
-         <Row  >
+         <Row  className="justify-content-around">
             <Col>
            
            <div>
@@ -24,7 +24,7 @@ const Portfolio = () => {
         <div className="porfolio-div">
             
            <CardGroup>
-            <Col xs={6} md={4}>
+            <Col>
                
                 <Card style={{ width: '40rem', marginBottom: '4px'}}>
                     <div className="card-body">
@@ -36,7 +36,7 @@ const Portfolio = () => {
               
                 
             </Col>
-            <Col xs={6} md={4}>
+            <Col>
            
                 <Card style={{ width: '40rem',marginBottom: '4px' }}>
                  <div className="card-body">
@@ -47,7 +47,7 @@ const Portfolio = () => {
                 </Card>
            
             </Col>
-            <Col xs={6} md={4}>
+            <Col>
                 <Card style={{ width: '40rem',marginBottom: '4px' }}>
                     <div className="card-body">
                     <h4>Dev.Notes</h4>
@@ -58,7 +58,7 @@ const Portfolio = () => {
                 </Card>
                 
             </Col>
-                <Col xs={6} md={4}>
+                <Col>
                     <Card style={{ width: '40rem',marginBottom: '4px' }}>    
                         <div className="card-body">
                         <h4>CLI gem project</h4>
@@ -74,7 +74,7 @@ const Portfolio = () => {
                 <p></p>
                </div>
             <CardGroup>
-                <Col xs={6} md={4}>
+                <Col>
                     <Card style={{ width: '34rem' }}>
                         <div className="card-body">
                             <h5 className="card-title text-center cardh5">YelpCamp</h5>
@@ -86,7 +86,7 @@ const Portfolio = () => {
                         </div>
                     </Card>
                 </Col>
-                <Col xs={6} md={4}>
+                <Col>
                     <Card style={{ width: '34rem' }}>
                         <div className="card-body">
                             <h5 className="card-title text-center cardh5">RGB Color Game</h5>
@@ -97,7 +97,7 @@ const Portfolio = () => {
                         </div>
                     </Card>
                 </Col>
-                <Col xs={6} md={4}>
+                <Col>
                     <Card style={{ width: '34rem' }}>
                         <div className="card-body">
                             <h5 className="card-title text-center cardh5">TODO List</h5>
@@ -109,7 +109,7 @@ const Portfolio = () => {
                     </Card>
                 </Col>
 
-                <Col xs={6} md={4}>
+                <Col>
                     <Card style={{ width: '34rem' }}>
                         <div className="card-body">
                             <h5 className="card-title text-center cardh5">A Landing Page</h5>
@@ -121,7 +121,7 @@ const Portfolio = () => {
                     </Card>
                 </Col>
 
-                <Col xs={6} md={4}>
+                <Col>
                     <Card style={{ width: '34rem' }}>
                         <div className="card-body">
                             <h5 className="card-title text-center cardh5">A Picture Gallery</h5>
@@ -133,7 +133,7 @@ const Portfolio = () => {
                     </Card>
                 </Col>
 
-                <Col xs={6} md={4}>
+                <Col>
                     <Card style={{ width: '34rem' }}>
                         <div className="card-body">
                             <h5 className="card-title text-center cardh5">Pattern</h5>
@@ -145,7 +145,7 @@ const Portfolio = () => {
                     </Card>
                 </Col>
 
-                <Col xs={6} md={4}>
+                <Col>
                     <Card style={{ width: '34rem' }}>
                         <div className="card-body">
                             <h5 className="card-title text-center cardh5">Austin City Directory</h5>
@@ -160,7 +160,7 @@ const Portfolio = () => {
                     </Card>
                 </Col>
 
-                <Col xs={6} md={4}>
+                <Col>
                     <Card style={{ width: '34rem' }}>
                         <div className="card-body">
                             <h5 className="card-title text-center cardh5">A Product Landing Page</h5>
@@ -172,7 +172,7 @@ const Portfolio = () => {
                     </Card>
                 </Col>
 
-                <Col xs={6} md={4}>
+                <Col>
                     <Card style={{ width: '34rem' }}>
                         <div className="card-body">
                             <h5 className="card-title text-center cardh5">A Book Blog</h5>
