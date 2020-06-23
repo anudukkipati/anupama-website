@@ -3,14 +3,17 @@ import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import CardGroup from 'react-bootstrap/CardGroup'
-//import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed'
+
 
 
 const Portfolio = () => {
 
     return (
         <>
-         <Row  className="justify-content-around">
+        
+
+        
+         <Row>
             <Col>
            
            <div>
@@ -22,7 +25,9 @@ const Portfolio = () => {
        
         <Row className="portfolio ">
         <div className="porfolio-div">
-            
+            <Row className="d-flex justify-content-center">
+
+           
            <CardGroup>
             <Col>
                
@@ -47,6 +52,11 @@ const Portfolio = () => {
                 </Card>
            
             </Col>
+            </CardGroup>
+            </Row>
+            <Row className="d-flex justify-content-center">
+             <CardGroup>
+            
             <Col>
                 <Card style={{ width: '40rem',marginBottom: '4px' }}>
                     <div className="card-body">
@@ -70,10 +80,12 @@ const Portfolio = () => {
                     
                 </Col>
             </CardGroup>
+            </Row>
                <div className="course-title">
                 <p></p>
                </div>
-            <CardGroup>
+            <Row className="mx-auto ">
+             <CardGroup>
                 <Col>
                     <Card style={{ width: '30rem' }}>
                         <div className="card-body">
@@ -97,6 +109,8 @@ const Portfolio = () => {
                         </div>
                     </Card>
                 </Col>
+             
+            
                 <Col>
                     <Card style={{ width: '30rem' }}>
                         <div className="card-body">
@@ -108,7 +122,10 @@ const Portfolio = () => {
                         </div>
                     </Card>
                 </Col>
-
+                </CardGroup>
+            </Row>
+            <Row className="mx-auto ">
+             <CardGroup>
                 <Col>
                     <Card style={{ width: '30rem' }}>
                         <div className="card-body">
@@ -120,7 +137,8 @@ const Portfolio = () => {
                         </div>
                     </Card>
                 </Col>
-
+             
+            
                 <Col>
                     <Card style={{ width: '30rem' }}>
                         <div className="card-body">
@@ -144,7 +162,10 @@ const Portfolio = () => {
                         </div>
                     </Card>
                 </Col>
-
+                </CardGroup>
+            </Row>
+            <Row className="mx-auto ">
+             <CardGroup>
                 <Col>
                     <Card style={{ width: '30rem' }}>
                         <div className="card-body">
@@ -159,8 +180,8 @@ const Portfolio = () => {
                         </div>
                     </Card>
                 </Col>
-
-                <Col >
+              
+                <Col>
                     <Card style={{ width: '30rem' }}>
                         <div className="card-body">
                             <h5 className="card-title text-center cardh5">A Product Landing Page</h5>
@@ -172,7 +193,7 @@ const Portfolio = () => {
                     </Card>
                 </Col>
 
-                <Col >
+                <Col>
                     <Card style={{ width: '30rem' }}>
                         <div className="card-body">
                             <h5 className="card-title text-center cardh5">A Book Blog</h5>
@@ -184,9 +205,11 @@ const Portfolio = () => {
                     </Card>
                 </Col>
             </CardGroup>
+        </Row>
         </div>
        
         </Row>
+        
         </>
     )
 }
