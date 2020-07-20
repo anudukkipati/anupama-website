@@ -18,7 +18,7 @@ const Resume = () => {
                 <p>Built projects using Ruby, Rails, JavaScript. React and Redux</p>
                
                   <h6>Projects:</h6> 
-                   <p><em>BookReviews</em>: <a href="https://github.com/anudukkipati/sinatra-book-review-app" target="_blank" rel="noopener noreferrer">GitHub</a> |<a href="https://vimeo.com/390892753" target="_blank" rel="noopener noreferrer"> Demo</a>
+                   <p><em>BookReviews</em>: <a href="https://github.com/anudukkipati/sinatra-book-review-app" target="_blank" rel="noopener noreferrer">GitHub</a> |<a href="https://vimeo.com/439455823" target="_blank" rel="noopener noreferrer"> Demo</a>
                        <p>A Content Management System where users can sign up, login, logout ,add, edit, and delete book reviews</p>
                         <ul>
                             <li>Built this app using Sinatra Library, and Ruby</li>
@@ -36,7 +36,7 @@ const Resume = () => {
                         </ul>
                     
                     </p>
-                    <p><em>FavoritePoems</em>: <a href="https://github.com/anudukkipati/FavoritePoems" target="_blank" rel="noopener noreferrer">GitHub</a>  | <a href="https://vimeo.com/399466389" target="_blank" rel="noopener noreferrer"> Demo</a>
+                    <p><em>FavoritePoems</em>: <a href="https://github.com/anudukkipati/FavoritePoems" target="_blank" rel="noopener noreferrer">GitHub</a>  | <a href="https://vimeo.com/439459717" target="_blank" rel="noopener noreferrer"> Demo</a>
                         <p>A Content Management System where users can create accounts, add, edit, delete their favorite poems</p>
                         <ul>
                             <li>Created both backend and frontend functionality using Rails framework</li>
