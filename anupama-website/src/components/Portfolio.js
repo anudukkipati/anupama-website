@@ -24,30 +24,30 @@ const Portfolio = () => {
          </Row>
        
         <Row className="portfolio ">
-        <div className="porfolio-div">
-            <Row className="d-flex justify-content-center">
+        <div className="porfolio-div ">
+            <Row className="d-flex justify-content-center ">
 
            
            <CardGroup>
-            <Col>
+            <Col lg>
                
                 <Card style={{ width: '40rem', marginBottom: '4px'}}>
                     <div className="card-body">
                         <h4 className="card-title">Book Reviews</h4>
                         <p><em>A Content Management System where users can add, edit, and delete book reviews and comments. Built using Sinatra.</em></p>
-                        <div className="video-container" ><iframe title="book-reviews" height="300" src="https://player.vimeo.com/video/390892753" width="600"></iframe></div>
+                        <div className="video-container  embed-responsive embed-responsive-16by9" ><iframe title="book-reviews"  src="https://player.vimeo.com/video/439455823" ></iframe></div>
                     </div>
                 </Card>
               
                 
             </Col>
-            <Col>
+            <Col  lg>
            
                 <Card style={{ width: '40rem',marginBottom: '4px' }}>
                  <div className="card-body">
                     <h4>Favorite Poems</h4>
                     <p><em>A Content Management System where users can add, edit, delete their favorite poems. Built using Ruby on Rails.</em></p>
-                    <div className="video-container "><iframe title="favorite-poems"  height="300" src="https://player.vimeo.com/video/399466389" width="600"></iframe></div>
+                    <div className="video-container embed-responsive embed-responsive-16by9"><iframe title="favorite-poems"   src="https://player.vimeo.com/video/439459717" ></iframe></div>
                  </div>   
                 </Card>
            
@@ -57,23 +57,23 @@ const Portfolio = () => {
             <Row className="d-flex justify-content-center">
              <CardGroup>
             
-            <Col>
+            <Col lg>
                 <Card style={{ width: '40rem',marginBottom: '4px' }}>
                     <div className="card-body">
                     <h4>Dev.Notes</h4>
                     <p><em>A single page application with a backend API where notes can be added using a form. Built using Rails, React and Redux.</em></p>
-                    <div className="video-container"><iframe title="dev-notes"  height="300" src="https://player.vimeo.com/video/419671183" width="600"></iframe></div>
+                    <div className="video-container  embed-responsive embed-responsive-16by9"><iframe title="dev-notes"   src="https://player.vimeo.com/video/419671183" ></iframe></div>
 
                     </div>
                 </Card>
                 
             </Col>
-                <Col>
+                <Col lg>
                     <Card style={{ width: '40rem',marginBottom: '4px' }}>    
                         <div className="card-body">
                         <h4>CLI gem project</h4>
                         <p><em>Utilized Nokogiri to retrieve library information from Austin Public Libraries and display each library's information</em></p>
-                        <div className="video-containter"><iframe title="cli-gem"  height="300" src="https://player.vimeo.com/video/384286987" width="600"></iframe></div>
+                        <div className="video-containter  embed-responsive embed-responsive-16by9"><iframe title="cli-gem"   src="https://player.vimeo.com/video/384286987" ></iframe></div>
 
                         </div>
                     </Card>
@@ -172,9 +172,9 @@ const Portfolio = () => {
                             <h5 className="card-title text-center cardh5">Austin City Directory</h5>
                             <a className="card-link" href="http://webtrain.austincc.edu/~agadde/grid/index.html" target="_blank" rel="noopener noreferrer"> 
                             <img className="img-fluid" src="https://66.media.tumblr.com/3b5f5259e086713e2d98bcf26b5f70a5/tumblr_inline_qbkdhflyh81x875op_500.png" alt="Austin City Directory" /></a>
-                           <br />
-                            <br />
-                            <br />
+                            <br></br>
+                            <br></br>
+                            <br></br>
                             <p className="description"><em>HTML, CSS</em></p>
                             
                         </div>

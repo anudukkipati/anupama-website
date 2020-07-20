@@ -7,6 +7,7 @@ import NavBar from './components/NavBar.js'
 import Footer from './components/Footer.js'
 import About from './components/About.js'
 import Portfolio from './components/Portfolio.js'
+//import Work from './components/Work.js'
 import Resume from './components/Resume.js'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -29,6 +30,7 @@ function App() {
                 <Route exact path="/" component={About} />
                 <Route exact path="/portfolio" component={Portfolio} />
                 <Route exact path="/resume" component={Resume} />
+                
               </Switch>
 
               <Footer />
